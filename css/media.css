@@ -1,0 +1,170 @@
+@media screen and (max-width: 1199px) {
+
+    .header-txt h2 {
+        font-size: 48px;
+        color: #ec4c7a;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-top: 19px;
+        margin-bottom: 29px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header-txt h2 {
+        font-size: 48px;
+        letter-spacing: 2px;
+        margin-top: 19px;
+    }
+
+    .client {
+        padding: 50px 0;
+
+    }
+
+    .client-massage {
+        padding: 45px 100px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .header {
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+
+    .header-txt {
+        margin-bottom: 40px;
+    }
+
+    .header-txt h2 {
+        margin-bottom: 15px;
+    }
+
+    .header-txt h3 {
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .header-txt p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .link-btn {
+        padding: 9px 18px;
+    }
+
+    .biography-txt h3 {
+        font-size: 35px;
+        margin-bottom: 17px;
+    }
+
+    .biography {
+        padding: 50px;
+    }
+
+    .biography-txt p {
+        font-size: 16px;
+        line-height: 22px;
+        color: #918d8d;
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+
+    .work-wrapper {
+        padding: 50px;
+    }
+
+    .work-heading h2 {
+
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .work-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    .client-massage {
+        padding: 30px 39px;
+    }
+
+    .client-massage h4 {
+        font-size: 16px;
+    }
+
+    .client-massage p {
+        font-size: 22px;
+        margin-top: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-txt {
+        margin-bottom: 35px;
+    }
+
+    .biography {
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .biography-txt {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .client {
+        padding: 30px 0;
+    }
+
+    .client-txt h2 {
+        font-size: 24px;
+    }
+
+    .client-title {
+        margin-top: 14px;
+        margin-bottom: 20px;
+    }
+
+    .client-title h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .client-title p {
+        font-size: 13px;
+    }
+
+    .sub-title {
+        font-size: 14px;
+        line-height: 20px;
+        color: #8d8585;
+    }
+
+    .client-massage {
+        margin-top: 15px;
+    }
+
+    .client-massage h4 {
+        font-size: 14px;
+    }
+
+    .client-massage p {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    footer {
+        padding: 16px 0px;
+        font-size: 14px;
+    }
+}

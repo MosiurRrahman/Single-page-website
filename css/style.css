@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+
+/* heading css */
+.header-img {
+    max-width: 100%;
+}
+
+.header-bg {
+    background: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.header {
+    padding: 100px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-txt h3 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.header-txt h2 {
+    font-size: 57px;
+    color: #ec4c7a;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin-top: 19px;
+    margin-bottom: 40px;
+}
+
+.header-txt p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #918d8d;
+    margin-bottom: 30px;
+}
+
+.link-btn {
+    padding: 13px 30px;
+    color: #ffffff;
+    background-image: linear-gradient(-80deg, #ff4f96, #c02753);
+    border-radius: 5px;
+    transition: all linear 0.8s;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.link-btn:hover {
+    background-image: linear-gradient(90deg, #14afec, #070405);
+    color: #fff;
+}
+
+/* biography css */
+.biography-bg {
+    background: url(../images/biography-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.biography {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.biography-txt {
+    margin-left: 100px;
+}
+
+.biography-txt h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.biography-txt p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #918d8d;
+    margin-bottom: 60px;
+    max-width: 90%;
+}
+
+/* work css */
+.work-bg {
+    background: url(../images/latest-work-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.work-wrapper {
+    padding: 100px;
+}
+
+.work-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.work-heading h2 {
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+/* client css */
+.client {
+    background: url(../images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    text-align: center;
+}
+
+.client-txt h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.client-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.client-title h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.client-title p {
+    font-size: 15px;
+    color: #878080;
+}
+
+.sub-title {
+    font-size: 16px;
+    line-height: 29px;
+    color: #8d8585;
+}
+
+
+
+.client-massage {
+    background: #ff4891;
+    display: inline-flex;
+    padding: 50px 206px;
+    color: #fff;
+    margin-top: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: .5s;
+}
+
+.client-massage:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 14px 20px 9px #b2abab;
+}
+
+.client-massage h4 {
+    font-size: 20px;
+}
+
+.client-massage h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.client-massage p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px 100px;
+    text-align: center;
+    background: #ddd;
+}
